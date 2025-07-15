@@ -1,0 +1,55 @@
+# 项目依赖
+node_modules/
+
+# 构建输出
+dist/
+
+# 本地环境变量
+.env
+.env.local
+.env.*.local
+
+# 日志文件
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# 编辑器配置
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 操作系统文件
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# 临时文件
+*.tmp
+*.temp
+
+# 测试覆盖率报告
+coverage/
+*.lcov
+
+# Cypress 测试
+cypress/videos/
+cypress/screenshots/
+
+# ESLint 缓存
+.eslintcache
+
+# Stylelint 缓存
+.stylelintcache
+
+# 其他工具缓存
+.cache/
+.parcel-cache/
+.vite/
